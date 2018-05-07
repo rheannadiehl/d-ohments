@@ -113,10 +113,10 @@ button.radius, .button.radius:hover {
 	font-family: 'Alfa Slab One', cursive;
 	position: absolute;
 	z-index: 99999;
-	top: 35%;
-	right: 10%;
+	top: 82%;
+	left: 20%;
 	font-size: 2.3rem;
-	color: /*#832f59*/ #000000;
+	color: /*#832f59*/ #f189b8;
 	text-align: right;
 }
 
@@ -157,14 +157,16 @@ main p {
 }
 
 .redirects {
-	color: #ddbe1f;
+	color: #ffffff;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 	background-color: #e24d98;
 	text-align: center;
 	border: solid 2px #ddbe1f;
 }
-
+.redirects p {
+		font-size: .8rem;
+}
 .redirects .column {
 	border-right: 10px solid #c94888;
 }
@@ -205,7 +207,10 @@ main p {
 	color: #ffffff;
 }
 
-.story h1 {}
+.story img {
+	width: 100%;
+	padding-left: 11rem;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
@@ -309,13 +314,13 @@ footer {
 	padding-bottom: 2rem;
     overflow: hidden;
     background: #e24d98;
-    color: #ddbe1f;
 }
 
 footer p {
 	line-height: 1.4rem;
 	font-size: .875rem;
 	text-align: left;
+	color: #ffffff;
 }
 
 footer li {
