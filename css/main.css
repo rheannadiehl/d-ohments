@@ -7,6 +7,7 @@ body {
 h1 {
 	font-family: 'Alfa Slab One', cursive;
 	color: #e24d98;
+	line-height: 1;
 }
 
 a {
@@ -29,6 +30,10 @@ aside h4 {
 	color: #e24d98;
 	padding-top: .5rem;
 	text-align: center;
+}
+
+aside h1 {
+	padding-bottom: 1rem;
 }
 
 .panel h4 {
@@ -129,6 +134,10 @@ button.radius, .button.radius:hover {
 	font-size: 2.6rem;
 }
 
+.hero .text {
+	background: rgba(0,0,0,.5);
+}
+
 main {
 	background-color: #ffffff;
 	padding-top: 3rem;
@@ -141,6 +150,11 @@ main {
 
 .featured h2 {
 	font-size: 1.5rem;
+}
+
+.featured h3 {
+	font-size: 1rem;
+	color: #bdbdbd;
 }
 
 .featured p {
@@ -179,9 +193,16 @@ main p {
 	border-right: solid 2px #ddbe1f;
 }
 
-.faq {
+.faqs {
 	border-right: solid 2px #ddbe1f;
 
+}
+
+.faqs img {
+	width: 100%;
+	position: absolute;
+	right: -50;
+	top: 10%;
 }
 
 .sale {
@@ -227,6 +248,14 @@ p {
 	background-color: #ffffff;
 }
 
+.faqs img {
+	width: 600%;
+	position: absolute;
+	left: 75%;
+	top: 0%;
+	opacity: .7;
+}
+
 .faqs h2 {
 	font-family: 'Alfa Slab One', cursive;
 	color: #e24d98;
@@ -241,7 +270,7 @@ p {
 
 .faqs h1 {
 	font-size: 4rem;
-	padding-top: 1rem;
+	padding-top: 2rem;
 }
 
 .tweets {
