@@ -248,14 +248,6 @@ p {
 	background-color: #ffffff;
 }
 
-.faqs img {
-	width: 600%;
-	position: absolute;
-	left: 75%;
-	top: 0%;
-	opacity: .7;
-}
-
 .faqs h2 {
 	font-family: 'Alfa Slab One', cursive;
 	color: #e24d98;
