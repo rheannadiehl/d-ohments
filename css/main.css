@@ -113,10 +113,10 @@ button.radius, .button.radius:hover {
 	font-family: 'Alfa Slab One', cursive;
 	position: absolute;
 	z-index: 99999;
-	top: 35%;
-	right: 10%;
+	top: 80%;
+	right: 5%;
 	font-size: 2.3rem;
-	color: /*#832f59*/ #000000;
+	color: #f189b8;
 	text-align: right;
 }
 
@@ -219,7 +219,7 @@ p {
 .faqs {
 	padding-left: 2rem;
 	padding-right: 2rem;
-	background-color: #ffffff;
+	background-color: #f5eab5;
 }
 
 .faqs h2 {
